@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(214, 204, 211);
+  font-family: 'Times New Roman', serif;
+}
+h1 {
+  background-color: lightcoral(172, 71, 255, 0.555);
+  opacity: 0.5;
+}
+p {
+  background-color: #FFFF00;
+  color: black; 
+  text-align: left;
+  font-size: 14px;
+}
+/* Class */
+.iLoveCode{
+  border: 5px;
+  border-color: lightcoral black lightcoral black;
+  border-style: double dashed double dashed;
+  background-color: lightgoldenrodyellow;
+  text-align: left;
+}
+/*ID (can only be used once) */
+#betaBanner {
+	color: white;
+	background-color: orange;
+}
+/* float attribute */
+img{
+  float: right;
+}
+
+/*Flex Box:*/
+.flex-container {
+  display: flex;
+}
+
+
+.c{
+  text-transform: capitalize;
+  padding: 200px 50px 24px 80px
+}
+
+.r {
+  background-color: #FFFF00;
+  color: black; 
+  text-align: left;
+  font-size: 14px;
+/* .flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+} */
